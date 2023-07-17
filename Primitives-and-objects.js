@@ -1,0 +1,11 @@
+// PRIMITIVE DATA TYPES 
+// N -> NULL 
+// N -> NUMBER
+// S -> SYMBOL
+// S -> STRING
+// B -> BOOLEAN
+// B -> BIGINT
+// U -> UNDEFINED
+
+// NON- PRIMITIVE DATA TYPES
+// Objects -> KEY - VALUE PAIRS 
