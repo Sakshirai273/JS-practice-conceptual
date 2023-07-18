@@ -9,10 +9,10 @@ while (input != random){
   if(input != random){
   console.log("Wrong! Try again.")}
   
-  if (random>input){
+  if (random > input){
     console.log("The Number is bigger than " + input)
   }
-  else if (random<input) {
+  else if (random < input) {
     console.log("The Number is smaller than " + input)
   }
   
