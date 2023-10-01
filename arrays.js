@@ -111,6 +111,7 @@ console.log(z)
 //for each ham tab use krte hain jab hame koi opeartion krna hota hai array ke existing elements or ,aur map ham tab use krte hain jab hame naya array banana hota hai to do something..
 
 
+
 //FILTER METHOD
 let arr22 = [34,29,23,3,8,2,9]
 let a2= arr22.filter((a) => {
