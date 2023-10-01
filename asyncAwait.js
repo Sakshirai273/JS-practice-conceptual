@@ -35,8 +35,6 @@ const p2 = new Promise((resolve , reject)=>{
 } , 10000);
 });
 
-
-
 //await can only be used inside an async function
 async function handlePromise(){
     console.log("Hello duniya!");
@@ -60,3 +58,13 @@ handlePromise();
 // getData();
 
 //WHY ASYNC AWAIT IS SPECIAL?
+const API_URL = "https://api.github.com/users/Sakshirai273"
+async function handlePromise(){
+ //fetch() => Response (object) which is a readable stream => Response.json(which is a promise) => jsonValue
+ //fetch gives us  a promise . Fetch returns a response .
+  // fetch(). then (res⇒ res.json ()) .then (res⇒ console.log())
+   const data = await fetch(API_URL); 
+   const jsonValue = await data.json();
+   console.log(jsonValue);
+}
+handlePromise();
