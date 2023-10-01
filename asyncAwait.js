@@ -87,3 +87,8 @@ catch (err) {
 handlePromise();
 //another way to handle errors
 handlePromise().catch((err) => console.log (err));
+
+
+// ASYNC AWAIT IS JUST A SYNTACTICAL SUGAR OF PROMISE NATIVE METHODS (.THEN/.CATCH)
+//async await is just a new way of writing code also we wont have to do much promise chaining.
+// async await is easier to read also 
