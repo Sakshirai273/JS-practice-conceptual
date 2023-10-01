@@ -68,3 +68,22 @@ async function handlePromise(){
    console.log(jsonValue);
 }
 handlePromise();
+
+
+
+//ERROR - HANDLING
+const API_URL1 = "https://invalidarandomurl";
+// await can only be used inside an async function
+async function handlePromise() {
+try {
+    const data = await fetch (API_URL1);
+    const jsonValue = await data.json();
+    console.log (jsonValue);
+}
+catch (err) {
+    console.log(err);
+  }
+}
+handlePromise();
+//another way to handle errors
+handlePromise().catch((err) => console.log (err));
